@@ -1,6 +1,10 @@
 @font-face { font-family: Integral_CF_Heavy; src: url('Integral_CF_Heavy.otf') format("opentype"); }
 @font-face { font-family: Snake; src: url('Snake.otf') format("opentype"); }
 
+body{
+    background-color: #e94823;
+}
+
 .title{
     font-family: Integral_CF_Heavy;
     font-size: 8vw;
@@ -11,18 +15,10 @@
     transform: translateX(-50%);
     color: white;
     text-decoration: none;
-}
-
-body{
-    background-color: #e94823;
-}
-
-.menu_button{
-    font-family: Snake;
-    font-weight: normal;
-    font-size: 3vw;
-    color: white;
-    text-decoration: none;
+    user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
 }
 
 .menu {
@@ -31,4 +27,25 @@ body{
     align-items: baseline;
     transform: translate(9%, 110%);
     width: 85%;
-  }
+}
+
+.menu_button{
+    font-family: Snake;
+    font-weight: normal;
+    font-size: 3vw;
+    color: white;
+    user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+}
+
+.buttons{
+    text-decoration: none;
+}
+
+.buttons:hover h1{
+    font-family: Integral_CF_Heavy;
+    font-size: 1vw;
+    letter-spacing: 1px;
+}
