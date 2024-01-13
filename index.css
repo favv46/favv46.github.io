@@ -20,12 +20,16 @@ body {
 
 .title{
     font-family: Integral_CF_Heavy;
-    font-size: 95pt;
+    font-size: 40pt;
     white-space: nowrap;
     position: fixed;
     text-align: center;
-    top: -100px;
+    top: 0px;
     left: 50%;
     transform: translateX(-50%);
     color: white;
+}
+
+body{
+    background-color: #e94823;
 }
