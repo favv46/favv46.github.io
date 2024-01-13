@@ -1,0 +1,31 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.background_home {
+    margin: 0;
+    padding: 0;
+}
+
+.background_home > img {
+    width: 100%;
+    display: block;
+}
+
+
+@font-face { font-family: Integral_CF_Heavy; src: url('Integral_CF_Heavy.otf') format("opentype"); }
+
+
+.title{
+    font-family: Integral_CF_Heavy;
+    font-size: 95pt;
+    white-space: nowrap;
+    position: fixed;
+    text-align: center;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
