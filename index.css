@@ -1,5 +1,5 @@
 @font-face { font-family: Integral_CF_Heavy; src: url('Integral_CF_Heavy.otf') format("opentype"); }
-
+@font-face { font-family: Snake; src: url('Snake.otf') format("opentype"); }
 
 .title{
     font-family: Integral_CF_Heavy;
@@ -16,3 +16,19 @@
 body{
     background-color: #e94823;
 }
+
+.menu_button{
+    font-family: Snake;
+    font-weight: normal;
+    font-size: 3vw;
+    color: white;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    transform: translate(9%, 110%);
+    width: 85%;
+  }
