@@ -12,7 +12,7 @@ body{
     position: fixed;
     text-align: center;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%, -1.2ch);
     color: white;
     text-decoration: none;
     user-select: none;
@@ -20,26 +20,31 @@ body{
         -webkit-user-select: none;
         -ms-user-select: none;
     z-index: 1000;
+    padding-left: 1ch;
+    padding-right: 1ch;
+    padding-top: 1ch;
+    background-color: #e94823;
+    border-radius: 50px;
 }
 
 .menu {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    transform: translate(6%, 60%);
+    transform: translate(6%, -52%);
     width: 85%;
     position: fixed;
-    z-index: 1000;
+    z-index: 900;
 }
 
 .menu_2 {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    transform: translate(75%, 110%);
-    width: 40%;
+    transform: translate(50%, -37%);
+    width: 50%;
     position: fixed;
-    z-index: 1000;
+    z-index: 800;
 }
 
 .menu_button{
@@ -51,6 +56,11 @@ body{
         -moz-user-select: none;
         -webkit-user-select: none;
         -ms-user-select: none;
+    padding-left: 1ch;
+    padding-right: 1ch;
+    padding-top: 10ch;
+    background-color: #e94823;
+    border-radius: 10px;
 }
 
 .buttons{
@@ -61,6 +71,12 @@ body{
     font-family: Integral_CF_Heavy;
     font-size: 2vw;
     letter-spacing: 1px;
+    padding-left: 2ch;
+    padding-right: 1.3ch;
+    padding-top: 10ch;
+    padding-bottom: 1.5ch;
+    background-color: #e94823;
+    border-radius: 10px;
 }
 
 img{
@@ -69,11 +85,14 @@ img{
     height: 40%;
 }
 
+
+
+
 .cadre_1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transform: translateY(80%);
+    transform: translateY(95%);
     color: white;
     font-family: Integral_CF_Heavy;
     font-size: 3vw;
@@ -88,16 +107,16 @@ img{
     margin-right: 2ch;
 }
 
-.button_1{
+.en_savoir_plus{
     background-color: white;
     font-family: Integral_CF_Heavy;
-    font-size: 1.5vw;
+    font-size: 2vw;
     color: #e94823;
     font-style: italic;
     border-radius: 5px;
     border: none;
-    width: 40%;
-    transform: translateX(70%);
+    width: 50%;
+    transform: translateX(50%);
 }
 
 .text_button{
@@ -106,7 +125,89 @@ img{
     
 }
 
-.button_1:hover{
+.en_savoir_plus:hover{
     color: white;
     background-color: #e94823;
+}
+
+
+
+
+.cadre_2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateY(115%);
+    color: white;
+    font-family: Integral_CF_Heavy;
+    font-size: 3vw;
+}
+
+.cadre_2 > div > p{
+    width: 90%;
+    margin-left: 2ch;
+}
+
+.cadre_2 > img{
+    margin-left: 2ch;
+}
+
+.text_button_2{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+.cadre_3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateY(135%);
+    color: white;
+    font-family: Integral_CF_Heavy;
+    font-size: 3vw;
+}
+
+.cadre_3 > div > p{
+    width: 90%;
+    margin-left: 2ch;
+}
+
+.cadre_3 > img{
+    margin-left: 2ch;
+}
+
+.text_button_3{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+.cadre_4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateY(155%);
+    color: white;
+    font-family: Integral_CF_Heavy;
+    font-size: 3vw;
+}
+
+.cadre_4 > div > p{
+    width: 90%;
+    margin-left: 2ch;
+}
+
+.cadre_4 > img{
+    margin-left: 2ch;
+}
+
+.text_button_4{
+    display: flex;
+    flex-direction: column;
+    
 }
