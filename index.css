@@ -19,6 +19,7 @@ body{
         -moz-user-select: none;
         -webkit-user-select: none;
         -ms-user-select: none;
+    z-index: 1000;
 }
 
 .menu {
@@ -27,6 +28,8 @@ body{
     align-items: baseline;
     transform: translate(9%, 110%);
     width: 85%;
+    position: fixed;
+    z-index: 1000;
 }
 
 .menu_button{
@@ -48,4 +51,52 @@ body{
     font-family: Integral_CF_Heavy;
     font-size: 1vw;
     letter-spacing: 1px;
+}
+
+img{
+    border-radius: 10px;
+    width: 40%;
+    height: 40%;
+}
+
+.cadre_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateY(55%);
+    color: white;
+    font-family: Integral_CF_Heavy;
+    font-size: 3vw;
+}
+
+.cadre_1 > div > p{
+    width: 90%;
+    margin-left: 2ch;
+}
+
+.cadre_1 > img{
+    margin-right: 2ch;
+}
+
+.button_1{
+    background-color: white;
+    font-family: Integral_CF_Heavy;
+    font-size: 1.5vw;
+    color: #e94823;
+    font-style: italic;
+    border-radius: 5px;
+    border: none;
+    width: 40%;
+    transform: translateX(70%);
+}
+
+.text_button{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.button_1:hover{
+    color: white;
+    background-color: #e94823;
 }
