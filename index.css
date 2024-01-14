@@ -3,6 +3,7 @@
 
 body{
     background-color: #e94823;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .title{
@@ -22,18 +23,19 @@ body{
     z-index: 1000;
     padding-left: 1ch;
     padding-right: 1ch;
+    padding-bottom: 0.5ch;
     background-color: #e94823;
-    border-radius: 50px;
+    box-shadow: 10px 5px 5px #ba2a0a;
 }
 
 .menu {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    transform: translate(9%, 60%);
+    transform: translate(9%, 90%);
     width: 85%;
     position: fixed;
-    z-index: 900;
+    z-index: 1000;
 }
 
 .menu_button{
@@ -45,11 +47,6 @@ body{
         -moz-user-select: none;
         -webkit-user-select: none;
         -ms-user-select: none;
-    padding-left: 1ch;
-    padding-right: 1ch;
-    padding-top: 1ch;
-    background-color: #e94823;
-    border-radius: 20px;
 }
 
 .buttons{
@@ -60,25 +57,19 @@ body{
     font-family: Integral_CF_Heavy;
     font-size: 1vw;
     letter-spacing: 1px;
-    padding-left: 2ch;
-    padding-right: 2ch;
-    padding-top: 1.5ch;
-    padding-bottom: 1.5ch;
-    background-color: #e94823;
-    border-radius: 20px;
 }
 
 img{
     border-radius: 10px;
-    width: 40%;
-    height: 40%;
+    width: 35%;
+    height: 35%;
 }
 
 .cadre_1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transform: translateY(55%);
+    transform: translateY(45%);
     color: white;
     font-family: Integral_CF_Heavy;
     font-size: 3vw;
@@ -123,7 +114,7 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transform: translateY(75%);
+    transform: translateY(65%);
     color: white;
     font-family: Integral_CF_Heavy;
     font-size: 3vw;
@@ -150,7 +141,7 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transform: translateY(95%);
+    transform: translateY(85%);
     color: white;
     font-family: Integral_CF_Heavy;
     font-size: 3vw;
@@ -162,13 +153,12 @@ img{
 }
 
 .cadre_3 > img{
-    margin-left: 2ch;
+    margin-right: 2ch;
 }
 
 .text_button_3{
     display: flex;
     flex-direction: column;
-    
 }
 
 
@@ -177,7 +167,7 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transform: translateY(115%);
+    transform: translateY(105%);
     color: white;
     font-family: Integral_CF_Heavy;
     font-size: 3vw;
@@ -196,4 +186,19 @@ img{
     display: flex;
     flex-direction: column;
     
+}
+
+.cgu{
+    font-family: Integral_CF_Heavy;
+    font-size: 1vw;
+    white-space: nowrap;
+    text-align: center;
+    transform: translateY(50ch);
+    padding-bottom: 1ch;
+    color: white;
+    text-decoration: none;
+    user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
 }
