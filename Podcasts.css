@@ -4,8 +4,7 @@
 body{
     margin: 0;
     padding: 0;
-    height: 350vh;
-    background-color: #e94823;
+    background-color: #A0AECD;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -17,7 +16,7 @@ body{
     text-align: center;
     left: 50%;
     transform: translate(-50%, -0.2ch);
-    color: white;
+    color: #BCFD4C;
     text-decoration: none;
     user-select: none;
         -moz-user-select: none;
@@ -27,8 +26,8 @@ body{
     padding-left: 1ch;
     padding-right: 1ch;
     padding-bottom: 0.6ch;
-    background-color: #e94823;
-    box-shadow: 0px 5px 5px #ba2a0a;
+    background-color: #A0AECD;
+    box-shadow: 0px 5px 5px #768198;
 }
 
 .menu {
@@ -45,7 +44,7 @@ body{
     font-family: Snake;
     font-weight: normal;
     font-size: 3vw;
-    color: white;
+    color: #BCFD4C;
     user-select: none;
         -moz-user-select: none;
         -webkit-user-select: none;
@@ -61,3 +60,7 @@ body{
     font-size: 1vw;
     letter-spacing: 1px;
 }
+
+
+
+

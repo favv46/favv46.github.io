@@ -192,17 +192,3 @@ img{
     
 }
 
-.cgu{
-    font-family: IntegralCF_Heavy;
-    font-size: 1vw;
-    white-space: nowrap;
-    text-align: center;
-    transform: translateY(50ch);
-    padding-bottom: 1ch;
-    color: #BCFD4C;
-    text-decoration: none;
-    user-select: none;
-        -moz-user-select: none;
-        -webkit-user-select: none;
-        -ms-user-select: none;
-}
