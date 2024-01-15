@@ -6,7 +6,6 @@ body{
     padding: 0;
     height: 350vh;
     background-color: #e94823;
-    box-shadow: inset 50px 0px 100px #ba2a0a, inset -50px 0px 100px #ba2a0a;
     font-family: Arial, Helvetica, sans-serif;
 }
 
