@@ -4,7 +4,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #e94823;
+    background-color: #A0AECD;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -16,7 +16,7 @@ body{
     text-align: center;
     left: 50%;
     transform: translate(-50%, -0.2ch);
-    color: white;
+    color: #BCFD4C;
     text-decoration: none;
     user-select: none;
         -moz-user-select: none;
@@ -26,8 +26,8 @@ body{
     padding-left: 1ch;
     padding-right: 1ch;
     padding-bottom: 0.6ch;
-    background-color: #e94823;
-    box-shadow: 0px 5px 5px #ba2a0a;
+    background-color: #A0AECD;
+    box-shadow: 0px 5px 5px #768198;
 }
 
 .menu {
@@ -44,7 +44,7 @@ body{
     font-family: Snake;
     font-weight: normal;
     font-size: 3vw;
-    color: white;
+    color: #BCFD4C;
     user-select: none;
         -moz-user-select: none;
         -webkit-user-select: none;
@@ -65,7 +65,7 @@ img{
     border-radius: 10px;
     width: 35%;
     height: 35%;
-    box-shadow: 5px 5px 10px #ba2a0a;
+    box-shadow: 5px 5px 10px #768198;
 }
 
 .cadre_1{
@@ -73,7 +73,7 @@ img{
     justify-content: space-between;
     align-items: center;
     transform: translateY(45%);
-    color: white;
+    color: #BCFD4C;
     font-family: IntegralCF_Heavy;
     font-size: 3vw;
 }
@@ -88,10 +88,10 @@ img{
 }
 
 .en_savoir_plus{
-    background-color: white;
+    background-color: #BCFD4C;
     font-family: IntegralCF_Heavy;
     font-size: 1.5vw;
-    color: #e94823;
+    color: #A0AECD;
     font-style: italic;
     border-radius: 5px;
     border: none;
@@ -107,8 +107,8 @@ img{
 }
 
 .en_savoir_plus:hover{
-    color: white;
-    background-color: #e94823;
+    color: #BCFD4C;
+    background-color: #A0AECD;
 }
 
 
@@ -119,7 +119,7 @@ img{
     justify-content: space-between;
     align-items: center;
     transform: translateY(65%);
-    color: white;
+    color: #BCFD4C;
     font-family: IntegralCF_Heavy;
     font-size: 3vw;
 }
@@ -146,7 +146,7 @@ img{
     justify-content: space-between;
     align-items: center;
     transform: translateY(85%);
-    color: white;
+    color: #BCFD4C;
     font-family: IntegralCF_Heavy;
     font-size: 3vw;
 }
@@ -172,7 +172,7 @@ img{
     justify-content: space-between;
     align-items: center;
     transform: translateY(105%);
-    color: white;
+    color: #BCFD4C;
     font-family: IntegralCF_Heavy;
     font-size: 3vw;
 }
@@ -199,7 +199,7 @@ img{
     text-align: center;
     transform: translateY(50ch);
     padding-bottom: 1ch;
-    color: white;
+    color: #BCFD4C;
     text-decoration: none;
     user-select: none;
         -moz-user-select: none;
