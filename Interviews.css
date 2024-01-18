@@ -68,9 +68,8 @@ body{
     font-size: 2vw;
     letter-spacing: 1px;
     color: #BCFD4C;
-    transform: translateY(550%);
-    width: 14.5%;
-    margin: 0 auto;
+    position: absolute;
+    transform: translate(227%, 550%);
     z-index: 950;
     user-select: none;
         -moz-user-select: none;
