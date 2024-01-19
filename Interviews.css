@@ -69,7 +69,8 @@ body{
     letter-spacing: 1px;
     color: #BCFD4C;
     position: absolute;
-    transform: translate(227%, 550%);
+    left: 50%;
+    Transform : translate(-50%, 550%);
     z-index: 950;
     user-select: none;
         -moz-user-select: none;
