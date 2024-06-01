@@ -1,0 +1,18 @@
+@font-face { font-family: IntegralCF_Heavy; src: url('IntegralCF_Heavy.otf') format("opentype"); }
+
+.title{
+    font-family: IntegralCF_Heavy;
+    font-size: 3vw;
+    white-space: nowrap;
+    position: fixed;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -0.2ch);
+    color: #000000;
+    text-decoration: none;
+    user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    z-index: 1000;
+}
