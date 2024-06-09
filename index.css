@@ -15,3 +15,42 @@
         -webkit-user-select: none;
         -ms-user-select: none;
 }
+
+.sous-titre{
+    font-family: IntegralCF_Heavy;
+    font-size: 1vw;
+    white-space: nowrap;
+    position: fixed;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, 6ch);
+    color: #000000;
+    text-decoration: none;
+    user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+}
+
+img {
+    width: 300px;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 12ch);
+  }
+
+  .bottom{
+    font-family: IntegralCF_Heavy;
+    font-size: 1vw;
+    white-space: nowrap;
+    position: fixed;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, 38ch);
+    color: #000000;
+    text-decoration: none;
+    user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+  }
