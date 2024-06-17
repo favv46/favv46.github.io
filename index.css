@@ -1,56 +1,60 @@
 @font-face { font-family: IntegralCF_Heavy; src: url('IntegralCF_Heavy.otf') format("opentype"); }
 
-.title{
-    font-family: IntegralCF_Heavy;
-    font-size: 3vw;
-    white-space: nowrap;
-    position: fixed;
-    text-align: center;
-    left: 50%;
-    transform: translate(-50%, -0.2ch);
-    color: #000000;
-    text-decoration: none;
-    user-select: none;
-        -moz-user-select: none;
-        -webkit-user-select: none;
-        -ms-user-select: none;
-}
 
-.sous-titre{
-    font-family: IntegralCF_Heavy;
-    font-size: 1vw;
-    white-space: nowrap;
-    position: fixed;
-    text-align: center;
-    left: 50%;
-    transform: translate(-50%, 6ch);
-    color: #000000;
-    text-decoration: none;
-    user-select: none;
-        -moz-user-select: none;
-        -webkit-user-select: none;
-        -ms-user-select: none;
-}
-
-img {
-    width: 300px;
-    position: fixed;
-    left: 50%;
-    transform: translate(-50%, 12ch);
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    color: #ffffff;
+    padding: 20px;
+    background: #000000;
   }
 
-  .bottom{
+  .vert {
+    color: #1ED760;
     font-family: IntegralCF_Heavy;
-    font-size: 1vw;
-    white-space: nowrap;
-    position: fixed;
+    letter-spacing: 2px;
+  }
+
+  .gris {
+    color: #A7A7A7;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    font-size: 40px;
     text-align: center;
-    left: 50%;
-    transform: translate(-50%, 38ch);
-    color: #000000;
-    text-decoration: none;
-    user-select: none;
-        -moz-user-select: none;
-        -webkit-user-select: none;
-        -ms-user-select: none;
+    background: #121212;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: #121212;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
   }
